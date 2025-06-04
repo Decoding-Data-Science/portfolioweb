@@ -60,11 +60,26 @@ footer {
   margin-bottom: 20px;
 }
 
+.about-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about-photo {
+  flex: 1 0 25%;
+  max-width: 25%;
+}
+
+.about-text {
+  flex: 3 0 75%;
+}
+
 .profile-img {
   display: block;
+  width: 100%;
   max-width: 150px;
   border-radius: 50%;
-  margin: 0 auto 20px;
 }
 
 .tagline {
